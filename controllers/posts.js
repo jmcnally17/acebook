@@ -36,8 +36,15 @@ const PostsController = {
         if(err) res.json(err);
         else res.status(201).redirect("/posts");
       })
+  },
+
+  Update: (req, res, next) => {
+    const action = req.body.action;
+    const counter = action === 'Like' ? 1 : -1;
+    Post.updateMany({_id: req.params.id}, {$inc: {likes_count: counter}}, {}, (err, numberAffected) => {
+    res.send('');
+    });
   }
-}  
-       
+};
 
 module.exports = PostsController;
