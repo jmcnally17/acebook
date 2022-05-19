@@ -4,11 +4,10 @@
 <div class="timeline"><h1>Timeline</h1></div>
 
 <div class="new-post">
-<form id="new-post-form" action="/posts" method="post">
-  <textarea class="new-field" id="message" name="message" rows="4" placeholder="{{this.user.first_name}}, enter a useless thought that no one cares about..." required></textarea>
-  <input class="post-button" type="image" src= "/images/funny-zuck.png" >
-  
-</form>
+  <form id="new-post-form" action="/posts" method="post">
+    <textarea class="new-field" id="message" name="message" rows="4" placeholder="{{this.user.first_name}}, enter a useless thought that no one cares about..." required></textarea>
+    <input class="post-button" type="image" src= "/images/funny-zuck.png" >
+  </form>
 </div>
 
  {{#each posts}}
