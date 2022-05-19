@@ -49,7 +49,7 @@
  
   {{#if (ifLikesZero this ../post)}}
   <div class="post-likes">
-    <button onclick="myFunction({{@index}})" class="dropbtn">{{this.likesCount}} Likes</button>
+    <button onclick="myFunction({{@index}})" class="dropbtn">{{this.likesCount}} {{#if (ifEqual this.likesCount 1)}}Like {{else}} Likes {{/if}}</button>
     <div id="myDropdown-{{@index}}" class="dropdown-content">
       {{#each this.likesBy}}
         <a class="post-likes" href="/users/{{this}}">{{this}}</a>
