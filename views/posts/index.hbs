@@ -52,7 +52,7 @@
     <button onclick="myFunction({{@index}})" class="dropbtn">{{this.likesCount}} Likes</button>
     <div id="myDropdown-{{@index}}" class="dropdown-content">
       {{#each this.likesBy}}
-        <a href="/users/{{this}}">{{this}}</a>
+        <a class="post-likes" href="/users/{{this}}">{{this}}</a>
       {{/each}}
     </div>
 
