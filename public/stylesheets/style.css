@@ -366,7 +366,7 @@ textarea {
 .new-field {
   font-size: 18px;
   resize: none;
-  width: 85%;
+  width: 80%;
 }
 
 .bio {
@@ -376,36 +376,47 @@ textarea {
 }
 
 .post-button {
-  max-height: 90px;
-  max-width: 100px;
+  max-height: 114px;
+  margin: 5px auto auto auto;
+  float: right;
 }
 
 @media screen and (max-width: 600px) {
   .new-field {
-    width: 70vw;
-  }
-  .post-button {
-    width: 12vw;
-    display: inline-block;
-    vertical-align: top;
+    width: 65vw;
   }
 }
 
 @media screen and (max-width: 500px) {
   .new-field {
-    width: 65vw;
-  }
-  .post-button {
-    width: 15vw;
+    width: 60vw;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .new-field {
     width: 55vw;
   }
   .post-button {
+    width: 22vw;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .post-button {
+    margin-top: 3vw;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .post-button {
     width: 20vw;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .new-field {
+    width: 50vw;
   }
 }
 
