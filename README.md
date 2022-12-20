@@ -1,10 +1,13 @@
 # Acebook
+
 ![Screenshot](https://i.imgur.com/629Ep5m.png)
 
 ## Task
+
 We have been tasked to create a web app that should work similar to Facebook. Users are be able to create their own accounts, log in to them, log out of them, be able to create posts, like posts and comment on any posts that they want. They will also have a Profile Page which they are able to edit.\
 \
 This is our team which worked on this project:
+
 - [Baljit](https://github.com/baljitrakhra)
 - [Joe M](https://github.com/jmcnally17)
 - [Joe N](https://github.com/Josenewmano)
@@ -12,8 +15,8 @@ This is our team which worked on this project:
 - [Monica](https://github.com/monenavarro)
 - [Nadia](https://github.com/NBenzineb)
 
-
 Technologies used:
+
 - [Trello](https://trello.com/b/wlp4ENq8/acebook-zark-muckerberg) for planning.
 - [Express](https://expressjs.com/) web framework for Node.js.
 - [Nodemon](https://nodemon.io/) to reload the server automatically.
@@ -23,10 +26,11 @@ Technologies used:
 - [ESLint](https://eslint.org) for linting.
 - [Jest](https://jestjs.io/) for testing.
 - [Cypress](https://www.cypress.io/) for end-to-end testing.
-- [Heroku](https://www.heroku.com/) for hosting our app.
+- [Render](https://render.com/) for hosting our app.
 - [GitHub](https://github.com/) for hosting our code, version control and GitHub Actions for CI and CD.
 
 ## Instructions
+
 Clone this repository to your desired location using `git clone https://github.com/jmcnally17/acebook-zark-muckerberg.git`.\
 \
 Make sure you have the most recent update of Node and then you can run `npm install` whilst in the main directory in your terminal to install dependencies.\
@@ -44,6 +48,7 @@ Here are some images to show what it looks like:
 ![Screenshot](https://i.imgur.com/493XLK6.png)
 
 ## Features
+
 - Users are able to create their own accounts
 - Users are not able to create an account if the email has already been used to create an existing account
 - Passwords are stored encrypted
